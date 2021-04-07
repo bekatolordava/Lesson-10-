@@ -158,6 +158,7 @@ span {
     width: 100%;
     margin-bottom: 50px;
 }
+.top-block {
     display: flex;
     justify-content: space-between;
 }
