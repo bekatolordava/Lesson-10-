@@ -276,3 +276,125 @@ span {
 .button-03 img {
     padding-left: 10px;
 }
+.date {
+    display: flex;
+    flex-direction: column;
+}
+/* section04 */
+.section04 {
+    width: 100%;
+    margin-top: 90px;
+}
+.container-title {
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.photos {
+    font-size: 14px;
+    color: #5863F8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.photos01 {
+    font-size: 42px;
+    color:#000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 50px;
+}   
+.photo-wraper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+/* footer */
+.footer-container {
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+    padding-top: 90px;
+}
+.footer-wraper {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.block01 img {
+    margin-right: 15px;
+}
+.block01 h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.block01 p {
+    font-size: 14px;
+    color: #B1B1B1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 260px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.block-wraper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 628px;
+    width: 100%;
+}
+.block-h {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.block-li {
+    font-size: 14px;
+    color: #5863F8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.block-ul {
+    display: flex;
+    flex-direction: column;
+}
+.block-a {
+    margin-left: 14px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.copyright-block {
+    max-width: 1088px;
+    width: 100%;
+    margin: 94px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-block  p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.copyright-block span {
+    color: #5863F8;
+}
+.copyright-block a {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5863F8;
+    text-transform: uppercase;
+}
