@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
                                     <!-- header -->
@@ -18,7 +19,7 @@
                 <div class="zetta-hotels">
                     <a href="index.html"> zetta hotels </a>
                 </div>
-                    <nav>
+                    <nav class="header-nav">
                         <ul>
                             <li class="nav-li"> <a class="button" href="index.html"> home </a> </li>
                             <li class="nav-li"> <a class="button" href="#"> rooms </a> </li>
@@ -41,7 +42,7 @@
         </div>
     </div>
                             <!-- section01 -->
-    <section class="section01">
+    <section class="section01"> 
         <div class="wraper-section01">
             <div class="left-block"> 
                 <img src="img/hotel.jpg" alt="design">
@@ -56,12 +57,15 @@
                 </div>
             </div>
         </div>    
-    </section>
+    </section> 
                                  <!-- section02 -->
     <section class="section02">
-        <h3 class="rest"> Restaurant </h3>
-        <h3 class="explore"> Explore our menu and eat what you want </h3>
+        
         <div class="wraper-section02">
+                <div class="section02-titles">
+                    <h3 class="rest"> Restaurant </h3>
+                    <h3 class="explore"> Explore our menu and eat what you want </h3>
+                </div>      
             <div class="top-block">
                 <div class="top-container">
                     <div class="cont-img">
@@ -69,7 +73,7 @@
                     </div>    
                     <div class="container-items">     
                         <h3 class="item"> Food </h3>
-                        <h3 class="description"> Fresh fish and onions </h3>
+                        <h3 class="description1"> Fresh fish and onions </h3>
                         <p> Fresh food directly from our restaurant ready coocked for you and you familly </p>
                     </div>    
                     <div class="box-arrow">
@@ -111,7 +115,7 @@
                     </div>    
                     <div class="container-items">   
                         <h3 class="item"> Food  </h3>
-                        <h3 class="description"> Fresh fish and onions </h3>
+                        <h3 class="description1"> Fresh fish and onions </h3>
                         <p> Fresh food directly from our restaurant ready coocked for you and you familly </p>
                     </div>
                     <div class="box-arrow">
@@ -153,9 +157,15 @@
             <h3 class="photos01"> See our latest photos from restaurant and hotel </h3>
         </div> 
         <div class="photo-wraper">
-            <img src="img/beach.jpg" alt="beach">
-            <img src="img/mountain.jpg" alt="mountain">
-            <img src="img/stairway.jpg" alt="stairway">
+            <div class="section04-img">
+                <img src="img/beach.jpg" alt="beach">
+            </div> 
+            <div class="section04-img">   
+                <img src="img/mountain.jpg" alt="mountain">
+            </div> 
+            <div class="section04-img">    
+                <img src="img/stairway.jpg" alt="stairway">
+            </div>    
         </div>   
     </section>
                     <!-- footer -->
@@ -210,6 +220,6 @@
             <p> Copyright ©2020 All rights reserved | This template is made with love by <span> Marian </span></p>
             <a href="www.portfolioname.com" target="_blank"> www.portfolioname.com </a>
         </div>  
-    </footer>                
+    </footer>            
 </body>
 </html>
